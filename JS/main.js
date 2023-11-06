@@ -12,7 +12,7 @@ if (age < 18) {
     discount = totalTicketPrice * 0.20;
 } else if (age >= 65) {
     discount = totalTicketPrice * 0.40;
-}
+};
 //calculate final price with discount
 const finalTicketPrice = totalTicketPrice - discount;
 //print final price in console
